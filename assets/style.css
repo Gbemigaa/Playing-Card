@@ -118,9 +118,23 @@ aspect-ratio: 5/7;
     height: 7vmin;
     width: 7vmin ;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.card-swiper-buttons>button:hover{
+    transform: scale(1.1);
+}
+
+.card-swiper-buttons>button:active{
+    transform: translateY(4px);
 }
 
 #love-button{
     color: rba(33,150,243);
     border-color: rgb(33, 150, 243);
+}
+
+#hate-button{
+    color: white;
+    border-color: red;
 }
